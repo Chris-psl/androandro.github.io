@@ -1,0 +1,39 @@
+Algorithm	How It Works	Best Case Time Complexity	Average Case Time Complexity	Worst Case Time Complexity	Space Complexity
+
+Selection Sort	Finds the minimum (or maximum) element
+                from the unsorted part of the array and             O(n²)	O(n²)	O(n²)	O(1)
+                swaps it with the first unsorted element.
+                Repeat until sorted.	                               
+
+
+Quick Sort	Picks a pivot element and partitions the array
+            into two parts: one with elements smaller than             O(n log n)	O(n log n)	O(n²)	O(log n) (average case)
+            the pivot and the other with elements larger. 
+            It then recursively sorts the two subarrays.	
+
+
+
+
+Merge Sort	Divides the array into two halves, recursively                O(n log n)	O(n log n)	O(n log n)	O(n)
+            sorts each half, and then merges the two sorted 
+            halves into a single sorted array.	
+
+
+
+
+Insertion Sort	Builds the sorted array one element at a time
+                by repeatedly picking the next element and 
+                inserting it in the correct position in the already         O(n)	O(n²)	O(n²)	O(1)
+                sorted part.	
+
+
+
+
+Bubble Sort	Repeatedly steps through the list, compares adjacent
+            elements, and swaps them if they are in the wrong order.         O(n)	O(n²)	O(n²)	O(1)
+            This is repeated until no more swaps are needed.	
+
+
+
+
+            
